@@ -17,17 +17,17 @@ const App = () => {
     <>
     <NavBar />
     <Hero />
-    <div className="container">
-      <Title subTitle='Our Program' Title='What We Offer'/>
-    <Programs/>
-    <About/>
-    <Title subTitle='Gallary' Title='Campus Photos'/>
-    <Campus />
-    <Title subTitle='TESTIMONIALS' Title='What Students Says'/>
-    <Testimonials/> 
-    <Title subTitle='Contact Us' Title='Get In Touch'/> 
-    <Contact/>   
-    <Footer/>
+      <div className="container">
+              <Title subTitle='Our Program' Title='What We Offer'/>
+            <Programs/>
+            <About/>
+                <Title subTitle='Gallary' Title='Campus Photos'/>
+            <Campus />
+                <Title subTitle='TESTIMONIALS' Title='What Students Says'/>
+            <Testimonials/> 
+                <Title subTitle='Contact Us' Title='Get In Touch'/>   
+            <Contact/>   
+            <Footer/>
     </div>
     
     </>
